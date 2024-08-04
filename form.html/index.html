@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Various Attributes</title>
+</head>
+<body>
+    <h1>Form with Various Attributes</h1><br>
+    <hr>
+    <form action="/submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="description">Description</label>
+        <textarea name="description" id="description"></textarea><br><br>
+
+        <label for="gender">What is your gender?</label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="interest">What are your interests?</label><br>
+        <input type="checkbox" name="interest" id="sports" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" name="interest" id="coding" value="coding">
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" name="interest" id="dancing" value="dancing">
+        <label for="dancing">Dancing</label>
+        <br><br>
+        <hr>
+
+        <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
