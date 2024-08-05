@@ -3,8 +3,11 @@ function Operations(){
     var num2=parseFloat(document.getElementById("number2").value);
 
 
-    document.getElementById("add").innerHTML="ADDItion:"+(num1+num2);
-    document.getElementById("sub").innerHTML="ADDItion:"+(num1-num2);
-    document.getElementById("mul").innerHTML="ADDItion:"+(num1*num2);
+    
+    
+
+    document.getElementById("add").innerHTML="Addition:"+(num1+num2);
+    document.getElementById("sub").innerHTML="subtraction:"+(num1-num2);
+    document.getElementById("mul").innerHTML="multiplication:"+(num1*num2);
     document.getElementById("div").innerHTML="division:"+(num1/num2);   
 }
